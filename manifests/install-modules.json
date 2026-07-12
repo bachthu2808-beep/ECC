@@ -215,7 +215,8 @@
         "skills/nuxt4-patterns",
         "skills/react-native-patterns",
         "skills/tinystruct-patterns",
-        "skills/vite-patterns"
+        "skills/vite-patterns",
+        "skills/frontend-ui-engineering"
       ],
       "targets": [
         "claude",
@@ -318,7 +319,33 @@
         "skills/repo-scan",
         "skills/rules-distill",
         "skills/santa-method",
-        "skills/git-workflow"
+        "skills/git-workflow",
+        "skills/brainstorming",
+        "skills/dispatching-parallel-agents",
+        "skills/executing-plans",
+        "skills/finishing-a-development-branch",
+        "skills/receiving-code-review",
+        "skills/requesting-code-review",
+        "skills/subagent-driven-development",
+        "skills/systematic-debugging",
+        "skills/using-git-worktrees",
+        "skills/writing-plans",
+        "skills/writing-skills",
+        "skills/code-review-and-quality",
+        "skills/code-simplification",
+        "skills/debugging-and-error-recovery",
+        "skills/incremental-implementation",
+        "skills/planning-and-task-breakdown",
+        "skills/spec-driven-development",
+        "skills/source-driven-development",
+        "skills/doubt-driven-development",
+        "skills/idea-refine",
+        "skills/interview-me",
+        "skills/deprecation-and-migration",
+        "skills/shipping-and-launch",
+        "skills/context-engineering",
+        "skills/observability-and-instrumentation",
+        "skills/browser-testing-with-devtools"
       ],
       "targets": [
         "claude",
@@ -354,7 +381,8 @@
         "skills/recursive-decision-ledger",
         "skills/agent-eval",
         "skills/benchmark",
-        "skills/benchmark-methodology"
+        "skills/benchmark-methodology",
+        "skills/performance-optimization"
       ],
       "targets": [
         "claude",
@@ -770,7 +798,8 @@
         "skills/homelab-vlan-segmentation",
         "skills/homelab-wireguard-vpn",
         "skills/kubernetes-patterns",
-        "skills/uncloud"
+        "skills/uncloud",
+        "skills/ci-cd-and-automation"
       ],
       "targets": [
         "claude",
