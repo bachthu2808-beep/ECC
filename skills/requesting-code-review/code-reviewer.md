@@ -22,8 +22,8 @@ Subagent (general-purpose):
 
     ## Git Range to Review
 
-    **Base:** [BASE_SHA]
-    **Head:** [HEAD_SHA]
+**Base:** [BASE_SHA]
+**Head:** [HEAD_SHA]
 
     ```bash
     git diff --stat [BASE_SHA]..[HEAD_SHA]
@@ -36,31 +36,31 @@ Subagent (general-purpose):
 
     ## What to Check
 
-    **Plan alignment:**
+**Plan alignment:**
     - Does the implementation match the plan / requirements?
     - Are deviations justified improvements, or problematic departures?
     - Is all planned functionality present?
 
-    **Code quality:**
+**Code quality:**
     - Clean separation of concerns?
     - Proper error handling?
     - Type safety where applicable?
     - DRY without premature abstraction?
     - Edge cases handled?
 
-    **Architecture:**
+**Architecture:**
     - Sound design decisions?
     - Reasonable scalability and performance?
     - Security concerns?
     - Integrates cleanly with surrounding code?
 
-    **Testing:**
+**Testing:**
     - Tests verify real behavior, not mocks?
     - Edge cases covered?
     - Integration tests where they matter?
     - All tests passing?
 
-    **Production readiness:**
+**Production readiness:**
     - Migration strategy if schema changed?
     - Backward compatibility considered?
     - Documentation complete?
@@ -104,20 +104,20 @@ Subagent (general-purpose):
 
     ### Assessment
 
-    **Ready to merge?** [Yes | No | With fixes]
+**Ready to merge?** [Yes | No | With fixes]
 
-    **Reasoning:** [1-2 sentence technical assessment]
+**Reasoning:** [1-2 sentence technical assessment]
 
     ## Critical Rules
 
-    **DO:**
+**DO:**
     - Categorize by actual severity
     - Be specific (file:line, not vague)
     - Explain WHY each issue matters
     - Acknowledge strengths
     - Give a clear verdict
 
-    **DON'T:**
+**DON'T:**
     - Say "looks good" without checking
     - Mark nitpicks as Critical
     - Give feedback on code you didn't actually read

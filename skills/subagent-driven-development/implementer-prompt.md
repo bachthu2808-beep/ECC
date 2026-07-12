@@ -27,7 +27,7 @@ Subagent (general-purpose):
     - Dependencies or assumptions
     - Anything unclear in the task description
 
-    **Ask them now.** Raise any concerns before starting work.
+**Ask them now.** Raise any concerns before starting work.
 
     ## Your Job
 
@@ -41,7 +41,7 @@ Subagent (general-purpose):
 
     Work from: [directory]
 
-    **While you work:** If you encounter something unexpected or unclear, **ask questions**.
+**While you work:** If you encounter something unexpected or unclear, **ask questions**.
     It's always OK to pause and clarify. Don't guess or make assumptions.
 
     While iterating, run the focused test for what you're changing; run the
@@ -65,14 +65,14 @@ Subagent (general-purpose):
     It is always OK to stop and say "this is too hard for me." Bad work is worse than
     no work. You will not be penalized for escalating.
 
-    **STOP and escalate when:**
+**STOP and escalate when:**
     - The task requires architectural decisions with multiple valid approaches
     - You need to understand code beyond what was provided and can't find clarity
     - You feel uncertain about whether your approach is correct
     - The task involves restructuring existing code in ways the plan didn't anticipate
     - You've been reading file after file trying to understand the system without progress
 
-    **How to escalate:** Report back with status BLOCKED or NEEDS_CONTEXT. Describe
+**How to escalate:** Report back with status BLOCKED or NEEDS_CONTEXT. Describe
     specifically what you're stuck on, what you've tried, and what kind of help you need.
     The controller can provide more context, re-dispatch with a more capable model,
     or break the task into smaller pieces.
@@ -81,22 +81,22 @@ Subagent (general-purpose):
 
     Review your work with fresh eyes. Ask yourself:
 
-    **Completeness:**
+**Completeness:**
     - Did I fully implement everything in the spec?
     - Did I miss any requirements?
     - Are there edge cases I didn't handle?
 
-    **Quality:**
+**Quality:**
     - Is this my best work?
     - Are names clear and accurate (match what things do, not how they work)?
     - Is the code clean and maintainable?
 
-    **Discipline:**
+**Discipline:**
     - Did I avoid overbuilding (YAGNI)?
     - Did I only build what was requested?
     - Did I follow existing patterns in the codebase?
 
-    **Testing:**
+**Testing:**
     - Do tests actually verify behavior (not just mock behavior)?
     - Did I follow TDD if required?
     - Are tests comprehensive?

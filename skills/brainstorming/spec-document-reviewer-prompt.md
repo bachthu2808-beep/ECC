@@ -12,7 +12,7 @@ Subagent (general-purpose):
   prompt: |
     You are a spec document reviewer. Verify this spec is complete and ready for planning.
 
-    **Spec to review:** [SPEC_FILE_PATH]
+**Spec to review:** [SPEC_FILE_PATH]
 
     ## What to Check
 
@@ -26,7 +26,7 @@ Subagent (general-purpose):
 
     ## Calibration
 
-    **Only flag issues that would cause real problems during implementation planning.**
+**Only flag issues that would cause real problems during implementation planning.**
     A missing section, a contradiction, or a requirement so ambiguous it could be
     interpreted two different ways — those are issues. Minor wording improvements,
     stylistic preferences, and "sections less detailed than others" are not.
@@ -37,12 +37,12 @@ Subagent (general-purpose):
 
     ## Spec Review
 
-    **Status:** Approved | Issues Found
+**Status:** Approved | Issues Found
 
-    **Issues (if any):**
+**Issues (if any):**
     - [Section X]: [specific issue] - [why it matters for planning]
 
-    **Recommendations (advisory, do not block approval):**
+**Recommendations (advisory, do not block approval):**
     - [suggestions for improvement]
 ```
 

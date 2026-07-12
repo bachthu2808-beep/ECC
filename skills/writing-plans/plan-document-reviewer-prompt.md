@@ -12,8 +12,8 @@ Subagent (general-purpose):
   prompt: |
     You are a plan document reviewer. Verify this plan is complete and ready for implementation.
 
-    **Plan to review:** [PLAN_FILE_PATH]
-    **Spec for reference:** [SPEC_FILE_PATH]
+**Plan to review:** [PLAN_FILE_PATH]
+**Spec for reference:** [SPEC_FILE_PATH]
 
     ## What to Check
 
@@ -26,7 +26,7 @@ Subagent (general-purpose):
 
     ## Calibration
 
-    **Only flag issues that would cause real problems during implementation.**
+**Only flag issues that would cause real problems during implementation.**
     An implementer building the wrong thing or getting stuck is an issue.
     Minor wording, stylistic preferences, and "nice to have" suggestions are not.
 
@@ -37,12 +37,12 @@ Subagent (general-purpose):
 
     ## Plan Review
 
-    **Status:** Approved | Issues Found
+**Status:** Approved | Issues Found
 
-    **Issues (if any):**
+**Issues (if any):**
     - [Task X, Step Y]: [specific issue] - [why it matters for implementation]
 
-    **Recommendations (advisory, do not block approval):**
+**Recommendations (advisory, do not block approval):**
     - [suggestions for improvement]
 ```
 

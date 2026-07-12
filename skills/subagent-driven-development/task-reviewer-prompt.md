@@ -31,9 +31,9 @@ Subagent (general-purpose):
 
     ## Diff Under Review
 
-    **Base:** [BASE_SHA]
-    **Head:** [HEAD_SHA]
-    **Diff file:** [DIFF_FILE]
+**Base:** [BASE_SHA]
+**Head:** [HEAD_SHA]
+**Diff file:** [DIFF_FILE]
 
     Read the diff file once — it contains the commit list, a stat summary,
     and the full diff with surrounding context, and it is your view of the
@@ -87,22 +87,22 @@ Subagent (general-purpose):
       solved
 
     If a requirement cannot be verified from this diff alone (it lives in
-    unchanged code or spans tasks), report it as a ⚠️ item instead of
+    unchanged code or spans tasks), report it as a WARNING: item instead of
     broadening your search.
 
     ## Part 2: Code Quality
 
-    **Code quality:**
+**Code quality:**
     - Clean separation of concerns?
     - Proper error handling?
     - DRY without premature abstraction?
     - Edge cases handled?
 
-    **Tests:**
+**Tests:**
     - Do the new and changed tests verify real behavior, not mocks?
     - Are the task's edge cases covered?
 
-    **Structure:**
+**Structure:**
     - Does each file have one clear responsibility with a well-defined interface?
     - Are units decomposed so they can be understood and tested independently?
     - Is the implementation following the file structure from the plan?
@@ -140,11 +140,11 @@ Subagent (general-purpose):
 
     ### Spec Compliance
 
-    - ✅ Spec compliant | ❌ Issues found: [what's missing/extra/misunderstood,
+    - PASS: Spec compliant | FAIL: Issues found: [what's missing/extra/misunderstood,
       with file:line references]
-    - ⚠️ Cannot verify from diff: [requirements you could not verify from the
+    - WARNING: Cannot verify from diff: [requirements you could not verify from the
       diff alone, and what the controller should check — report alongside the
-      ✅/❌ verdict for everything you could verify]
+      PASS:/FAIL: verdict for everything you could verify]
 
     ### Strengths
     [What's well done? Be specific.]
@@ -160,9 +160,9 @@ Subagent (general-purpose):
 
     ### Assessment
 
-    **Task quality:** [Approved | Needs fixes]
+**Task quality:** [Approved | Needs fixes]
 
-    **Reasoning:** [1-2 sentence technical assessment]
+**Reasoning:** [1-2 sentence technical assessment]
 ```
 
 **Placeholders:**
@@ -181,7 +181,7 @@ Subagent (general-purpose):
   package to (`scripts/review-package BASE HEAD` prints the unique path it
   wrote; the package never enters the controller's context)
 
-**Reviewer returns:** Spec Compliance verdict (✅/❌/⚠️), Strengths, Issues
+**Reviewer returns:** Spec Compliance verdict (PASS:/FAIL:/WARNING:), Strengths, Issues
 (Critical/Important/Minor), Task quality verdict
 
 A fix dispatch can address spec gaps and quality findings together;

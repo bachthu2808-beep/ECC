@@ -144,7 +144,7 @@ What works perfectly for Opus might need more detail for Haiku. If you plan to u
 ## Skill structure
 
 <Note>
-  **YAML Frontmatter**: The SKILL.md frontmatter requires two fields:
+**YAML Frontmatter**: The SKILL.md frontmatter requires two fields:
 
 * `name` - Human-readable name of the Skill (64 characters maximum)
 * `description` - One-line description of what the Skill does and when to use it (1024 characters maximum)
@@ -187,7 +187,7 @@ Consistent naming makes it easier to:
 The `description` field enables Skill discovery and should include both what the Skill does and when to use it.
 
 <Warning>
-  **Always write in third person**. The description is injected into the system prompt, and inconsistent point-of-view can cause discovery problems.
+**Always write in third person**. The description is injected into the system prompt, and inconsistent point-of-view can cause discovery problems.
 
 * **Good:** "Processes Excel files and generates reports"
 * **Avoid:** "I can help you process Excel files"
@@ -699,8 +699,8 @@ Guide agents through decision points:
 
 1. Determine the modification type:
 
-   **Creating new content?** → Follow "Creation workflow" below
-   **Editing existing content?** → Follow "Editing workflow" below
+**Creating new content?** → Follow "Creation workflow" below
+**Editing existing content?** → Follow "Editing workflow" below
 
 2. Creation workflow:
    - Use docx-js library
@@ -763,7 +763,7 @@ The most effective Skill development process involves the agent itself. Work wit
 
 2. **Identify the reusable pattern**: After completing the task, identify what context you provided that would be useful for similar future tasks.
 
-   **Example**: If you worked through a BigQuery analysis, you might have provided table names, field definitions, filtering rules (like "always exclude test accounts"), and common query patterns.
+**Example**: If you worked through a BigQuery analysis, you might have provided table names, field definitions, filtering rules (like "always exclude test accounts"), and common query patterns.
 
 3. **Ask Agent A to create a Skill**: "Create a Skill that captures this BigQuery analysis pattern we just used. Include the table schemas, naming conventions, and the rule about filtering test accounts."
 
@@ -791,7 +791,7 @@ The same hierarchical pattern continues when improving Skills. You alternate bet
 
 2. **Observe Agent B's behavior**: Note where it struggles, succeeds, or makes unexpected choices
 
-   **Example observation**: "When I asked Agent B for a regional sales report, it wrote the query but forgot to filter out test accounts, even though the Skill mentions this rule."
+**Example observation**: "When I asked Agent B for a regional sales report, it wrote the query but forgot to filter out test accounts, even though the Skill mentions this rule."
 
 3. **Return to Agent A for improvements**: Share the current SKILL.md and describe what you observed. Ask: "I noticed Agent B forgot to filter test accounts when I asked for a regional report. The Skill mentions filtering, but maybe it's not prominent enough?"
 
