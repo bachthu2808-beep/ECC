@@ -80,3 +80,7 @@ Use the following skills when working on related files:
 | `*.tsx`, `*.jsx`, `components/**` | `react-patterns`, `react-testing` — for React-specific work invoke `/react-review`, `/react-build`, `/react-test` |
 
 When spawning subagents, always pass conventions from the respective skill into the agent's prompt.
+
+## Additional Rules
+
+Curated skills, agents, commands, and rules imported from `everything-claude-code` live under `.claude/`. Always follow the rules in `.claude/rules/` (including `.claude/rules/common/` and `.claude/rules/python/`) in addition to the guidance in this file.
